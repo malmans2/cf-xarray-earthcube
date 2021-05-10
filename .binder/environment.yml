@@ -1,0 +1,14 @@
+name: cf_xarray
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - netcdf4
+  - pip
+  - xarray
+  - pooch
+  - xesmf
+  - intake-xarray
+  - gcsfs
+  - pip:
+    - git+https://github.com/xarray-contrib/cf-xarray
