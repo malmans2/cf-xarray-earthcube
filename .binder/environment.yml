@@ -9,6 +9,7 @@ dependencies:
   - pooch
   - xesmf
   - intake-xarray
+  - intake-esm
   - gcsfs
   - pip:
     - git+https://github.com/xarray-contrib/cf-xarray
