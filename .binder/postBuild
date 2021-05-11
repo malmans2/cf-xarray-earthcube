@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir data
+curl -o data/ocean_grid_sym_OM4_05.nc https://raw.githubusercontent.com/raphaeldussin/MOM6-AnalysisCookbook/master/docs/notebooks/data/ocean_grid_sym_OM4_05.nc
