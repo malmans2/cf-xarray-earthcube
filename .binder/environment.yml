@@ -11,5 +11,6 @@ dependencies:
   - intake-xarray
   - intake-esm
   - gcsfs
+  - nc-time-axis
   - pip:
     - git+https://github.com/xarray-contrib/cf-xarray
