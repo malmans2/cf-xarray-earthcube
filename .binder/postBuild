@@ -1,3 +1,11 @@
 #!/bin/bash
+
+# Add extensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable toc2/main
+
+# Download data
 mkdir data
 curl -o data/ocean_grid_sym_OM4_05.nc https://raw.githubusercontent.com/raphaeldussin/MOM6-AnalysisCookbook/master/docs/notebooks/data/ocean_grid_sym_OM4_05.nc
+curl -o data/air_temperature.nc https://github.com/pydata/xarray-data/blob/master/air_temperature.nc
+curl -o data/sic_SImon_CCCma-CanESM5_ssp245_r13i1p2f1_2020.nc https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/fileServer/birdhouse/testdata/xclim/cmip6/sic_SImon_CCCma-CanESM5_ssp245_r13i1p2f1_2020.nc
